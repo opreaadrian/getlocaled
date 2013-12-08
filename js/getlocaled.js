@@ -6,7 +6,9 @@ var GetLocaled = (function(window, document, undefined) {
         _localize;
 
 
-    _browserLang = navigator.language || navigator.userLanguage || navigator.browserLanguage;
+    _browserLang =  navigator.language ||
+                    navigator.userLanguage ||
+                    navigator.browserLanguage;
 
     _direction = {
         rtl: 'rtl',
@@ -45,7 +47,8 @@ var GetLocaled = (function(window, document, undefined) {
 
     _localize = function(locale, dir) {
 
-        return (_browserLang.toLowerCase().indexOf(locale) !== -1) ? _changeTextDirection(_direction[dir], _browserLang) : false;
+        return (_browserLang.toLowerCase().indexOf(locale) !== -1) ? 
+            _changeTextDirection(_direction[dir], _browserLang) : false;
 
     };
 
