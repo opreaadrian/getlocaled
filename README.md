@@ -16,7 +16,7 @@ In order to use the plugin, inside your page, preferably in the footer, link to 
 
 The plugin's API is as follows: `GetLocaled.init(<String> locale, <String> direction)`.
 
-It's awaiting contributors, so feel free to issue a `pull request` if you think you have a cool idea.
+This is open software, so feel free to issue a `pull request` if you think you have a cool idea.
 
 ###Testing
 
