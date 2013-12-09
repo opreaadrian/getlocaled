@@ -3,6 +3,7 @@ var GetLocaled = (function(window, document, undefined) {
     var _browserLang,
         _direction,
         _root,
+        _changeTextDirection,
         _localize;
 
 
